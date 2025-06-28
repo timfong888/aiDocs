@@ -7,8 +7,6 @@ This repo is designed to be used as a Git submodule across multiple projects.
 ```bash
 # In your submodule folder
 git submodule add https://github.com/timfong888/aiDocs
-git commit -m "Add submodule"
-git push
 ```
 
 ## Working with the Submodule
