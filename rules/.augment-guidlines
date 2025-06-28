@@ -1,17 +1,17 @@
-Augment Guidelines
-Core
+## Augment Guidelines
+### Core
 Use Task Manager, Sequential Thinking, Context7, Playwright, vertex-ai-mcp-server, desktop-commander for file/terminal tasks
 Write modular code; use 'services' for client-API interactions
-RESPONSE
-No Hallucination: If unknown, say "I don't know"
-Specific: No vague answers to specific queries
-"Why" on Mistakes: Analyze actual code/actions, identify errors, give examples
-Code First: Check code before making claims
-Uncertainty: State it, verify with tools, explain verification
-No Assumptions: About project, user preferences, configs
-Analyze Mistakes: Provide specific feedback on errors
-Verify Assumptions: Stop and verify when assuming
-CODEBASE
+### RESPONSE
+- No Hallucination: If unknown, say "I don't know"
+- Specific: No vague answers to specific queries
+- "Why" on Mistakes: Analyze actual code/actions, identify errors, give examples
+- Code First: Check code before making claims
+- Uncertainty: State it, verify with tools, explain verification
+- No Assumptions: About project, user preferences, configs
+- Analyze Mistakes: Provide specific feedback on errors
+- Verify Assumptions: Stop and verify when assuming
+### CODEBASE
 Pre-Change: Use codebase-retrieval before changes
 Context: Understand dependencies before modifying
 For Each Change: Retrieve files, check imports/patterns
