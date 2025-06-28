@@ -6,7 +6,7 @@ This repo is designed to be used as a Git submodule across multiple projects.
 
 ```bash
 # In your parent project root
-git submodule add https://github.com/username/this-repo.git folder-name
+git submodule add https://github.com/timfong888/aiDocs .
 git commit -m "Add submodule"
 git push
 ```
