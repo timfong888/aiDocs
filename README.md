@@ -13,7 +13,7 @@ git submodule add https://github.com/timfong888/aiDocs
 
 ```bash
 # Make changes in submodule
-cd folder-name
+cd aiDocs
 # edit files
 git add .
 git commit -m "Your changes"
