@@ -10,16 +10,17 @@ git submodule add https://github.com/timfong888/aiDocs
 ```
 
 ## Working with the Submodule
-
+### Make changes in submodule
 ```bash
-# Make changes in submodule
 cd aiDocs
 # edit files
 git add .
 git commit -m "Your changes"
 git push origin main
+```
 
 # Update parent repo reference
+```bash
 cd ..
 git add folder-name
 git commit -m "Update submodule reference"
