@@ -7,8 +7,11 @@ This is a prompt that should be performed right after downloading a new branch f
 2. Create a branch that matches that confirmed name.
 
 3. Sync to the remote submodules to ensure this branch is up to date.  This means going into the directory for the submodules.
-  a. aiDocs
-  b. Google oAuth
+  a. Go to custom_code directory
+  b. Mkdr `submodules`
+  c. Download from the repo modules as submodules:   
+     a. aiDocs: git submodule add https://github.com/timfong888/aiDocs
+     b. Google oAuth: git module add https://github.com/timfong888/googleOauth
 
 5. Push this updated local branch to the remote Github repo.
 
