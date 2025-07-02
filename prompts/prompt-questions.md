@@ -8,7 +8,7 @@ During the entire life-cycle, especially during the upfront planning phase, you 
 ## Creating a Questions Document
 If you have questions, you should write it in a Questions Document.
 
-The document should be in the `questions` folder.
+The document should be in the `aiDocs/questions` folder.
 
 The filename should be: `questions.md`
 
