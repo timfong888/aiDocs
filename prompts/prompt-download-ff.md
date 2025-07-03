@@ -3,7 +3,7 @@
 This is a prompt that should be performed right after downloading a new branch from FF internal.
 
 1. Confirm with the User that the branch name is correct.  If possible, check what Flutterflow Extension believes the branch name is.  Do not hallucinate.
-  a. Foe wxampke: "This is the name of the Flutterflow internal branch you pulled; {FF branch}.
+  - Foe wxampke: "This is the name of the Flutterflow internal branch you pulled; {FF branch}.
 
 2. Create a branch that matches that confirmed name.
 
