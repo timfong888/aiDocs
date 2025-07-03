@@ -27,6 +27,11 @@ git commit -m "Update submodule reference"
 git push
 ```
 
+# Update the local repo with the latest remote submodule repo
+```bash
+git submodule update --remote --recursive
+```
+
 ## Team Setup
 
 ```bash
