@@ -1,11 +1,13 @@
 # Task Generation Guide
 
 ## Instructions
-1. Create a task file in `aiDocs/tasks/remote-agent-tasks-{number}.md` matching the prompt number
-2. Include date and branch fields at the top
-3. Create a git branch named `remote-agent-{number}` matching the prompt number
-4. Break down the project into clear, actionable tasks
-5. Track progress and document implementation decisions
+1. Create a task file in `docs/{branch-name}-{issue}-{issue-number}/tasks.md` matching the prompt number
+2. Include date and branch fields at the top of the doc
+4. Break down the project into clear, actionable phases
+5. Make them concise, atomic, and simple.  Do not be verbose.
+6. Put the specific tasks into their respective phase.  Each should have a checkmark `[]`.
+7. Track progress by converting each task to `[x]`.
+8. Track progress and document implementation decisions
 
 ## Template
 ```markdown
