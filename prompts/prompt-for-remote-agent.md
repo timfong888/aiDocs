@@ -25,6 +25,13 @@ Your job is to complete the GitHub ticket.
 
 This could also include reviewing Comments for further context or concerns.
 
+## Prepare to Deploy to Flutterflow 
+Because you are working in an isolated environment in the cloud, everything essential for deployment misf be committed to thr REMOTE branch you are working on. 
+
+Confirm that you have committed to the repo and put the ticket the files committed to the repo. 
+
+Failure to commit to the remote repo will mean the code you weote will not be deployed. 
+
 When you are completed, create a Pull Request so that the User can perform a code review.
 
 
