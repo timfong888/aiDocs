@@ -9,6 +9,7 @@ However, the only available source of context:
 1. The repo and branch you designate for it
 2. The ONE Github Issue that gives the necessary context
 3. The files you have created and commited to the remote in `docs/branch-name`
+4. A generic prompt: `prompt-for-remote-agent.md`
 
 ## You are the Local Agent who must PREPARE the Remote Agent
 You are the Local Agent who must give prompts, instruction, context, designs for a successful Remote Agent.
