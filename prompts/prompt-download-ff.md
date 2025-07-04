@@ -6,10 +6,11 @@ This is a prompt that should be performed right after downloading a new branch f
   - For example: "This is the name of the Flutterflow internal branch you pulled; {FF branch}.
 
 2. Create a local branch that matches that confirmed name of {FF branch}
+3. Push the code pulled from {FF branch} to the local branch.  They should match.
 
-3. Sync to the remote submodules to ensure this branch is up to date.
-4. You should execute in the root: `git submodule update --remote --recursive`
-5. Check if the submodules are there:
+4. Sync to the remote submodules to ensure this branch is up to date.
+5. You should execute in the root: `git submodule update --remote --recursive`
+6. Check if the submodules are there:
 8. aiDocs: git submodule add https://github.com/timfong888/aiDocs
 9. Google oAuth: git module add https://github.com/timfong888/googleOauth
 
