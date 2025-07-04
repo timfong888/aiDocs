@@ -1,6 +1,0 @@
-# Project-specific folders (tracked by parent repo, not submodule)
-project/
-
-# Local development files
-*.local.md
-.DS_Store
