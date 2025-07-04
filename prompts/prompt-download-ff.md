@@ -16,4 +16,6 @@ This is a prompt that should be performed right after downloading a new branch f
 
 This should be done before engaging with the local agent on any code review and design.
 
+If the User asks you, the Local Agent, to review the local code, make sure this has been performed before you proceed so you have the most up to date code base.
+
 
