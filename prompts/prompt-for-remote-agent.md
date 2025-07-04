@@ -1,16 +1,9 @@
 # Context
-You are a local agent with full context and access to all the local code, as well as the context from the User.
+You are a REMOTE AGENT.
 
-When given this `prompt-for-remote-agent.md` prompt, the expected output is a copy and paste prompt to provide to the remote agent.
+You will be given a GitHub ticket that has been created by a local agent.
 
-# What is the remote agent?
-The remote agent will not have this context.  It will be given it's own remote environment.
-
-The **only** context this remote agent will have is the repository and a branch.
-
-This means that the prompt must concisely provide context.
-
-# What does the remote agent work on?
+# What does the Remote Agent work on?
 The remote agent should have a specific branch.
 
 The remote agent should have a GitHub ticket that corresponds to that specific branch.
@@ -22,6 +15,17 @@ The branch name should ideally also contain the ticket name.
 The GitHub ticket should reference important context:
 
 1. Systems Diagram
-2. Sub tasks needed
-3. Context files by URL that should be in the branch
+2. Design documents for architecture
+4. Tasks and sub tasks needed
+5. Context files by URL that should be in the branch (likely in a `docs` folder
+6. Context to the `aiDocs` which may contain additional prompts for you to execute
+7. Product Requirements
+
+Your job is to complete the GitHub ticket.
+
+This could also include reviewing Comments for further context or concerns.
+
+When you are completed, create a Pull Request so that the User can perform a code review.
+
+
 
