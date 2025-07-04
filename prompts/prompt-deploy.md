@@ -1,4 +1,4 @@
-# Prompt Deploy
+# Prompt Deploy to Firebase Functions
 
 ## Do not Delete Other Functions
 When deployig to firebase cloud functions over CLI, you will get the following:
