@@ -1,6 +1,11 @@
 # Prompting the use of submodules
 
 ## Initialize adding the submodules
+This should occur if submodules do not exist, but they should be included in a brand new project.
+Check if there are submodules:
+`git submodule status`
+
+If there aren't any, then add:
 `git submodule add {submodule repo name}`
 
 ## Before reviewing local code base, check for submodules
