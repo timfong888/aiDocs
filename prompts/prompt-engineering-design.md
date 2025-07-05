@@ -8,8 +8,10 @@
 8. You are responsible for coming up with a system flow diagram related to the proposed PRD.
 9. You must make a sequence diagram.
 10. Use the `prompt-docs.md` for guidance.
-11. Use `prompt-questions` to create a set of questions in the questions doc in `docs/{branch-name}-issue-{issue-number}` directory
+11. Use `prompt-questions` to create a set of questions in the questions doc in `docs/{issue-number}-{branch-name}` directory
 12. Think about who will consume your concise design document: a remote agent that has limited engineering capabilities.
 13. Make a single design document that references the sequence diagram, logic diagram, and high-level pseudo code.
-14. You are to design the telemetry and observability architecture, data-model.
-15. Keep things simple so that this ticket can be executed one-shot by a remote agent.
+14. The design document goes into `docs/{issue-number}-{branch-name}` directory.
+15. The design document: `design-{issue-number}-{branch-name}.md`
+16. You are to design the telemetry and observability architecture, data-model.
+17. Keep things simple so that this ticket can be executed one-shot by a remote agent.
