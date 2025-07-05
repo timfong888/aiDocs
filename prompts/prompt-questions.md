@@ -5,6 +5,11 @@ This questions guide describes to an AI agent how to pose questions to the User 
 
 During the entire life-cycle, especially during the upfront planning phase, you may have questions.  When you have questions, you should ask the User for clarification or additional information.  You should not make any assumptions about the requirements or design without first asking the User for confirmation.
 
+## Types of Questions
+1. Create clarity if the requirement is too open ended
+2. Construct questions designed to limit scope and drive simplicity.
+3. Ask questions if you come up with options and there must be a hard choice.
+
 ## Creating a Questions Document
 If you have questions, you should write it in a Questions Document.
 
