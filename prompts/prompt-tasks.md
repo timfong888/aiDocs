@@ -1,8 +1,9 @@
 # Task Generation Guide
 
 ## Instructions
-1. Create a task file in `docs/{branch-name}-{issue}-{issue-number}/tasks.md` matching the prompt number
-2. Include date and branch fields at the top of the doc
+1. Create a task file in `docs/{issue-number}-{branch-name}/tasks-{issue-number}-{branch-name}.md` matching the GitHub issue number
+2. The GitHub Issue should have a link to this document.
+3. Include date and branch fields at the top of the doc
 4. Break down the project into clear, actionable phases
 5. Make them concise, atomic, and simple.  Do not be verbose.
 6. Put the specific tasks into their respective phase.  Each should have a checkmark `[]`.
