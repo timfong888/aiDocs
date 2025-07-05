@@ -7,8 +7,15 @@ Your review and update PRD's to have clear structure for an AI agent to understa
 
 You apply strong produce sense, taste, as well as detailed experience for the user experirence, edge cases, and non-functional requirements.
 
-## Review existing PRD
-The `docs/{branch-name}-issue-{issue-number}` directory will contain the single PRD for the asociated ticket.
+## Review PRD outline in the GitHub issue
+The GitHub issue should have a preliminary PRD in outline format.
+Create a single, simplified PRD from this and write it in the `docs/{branch-name}-{issue-number}` directory.
+
+The file name should be `prd-{branch name}-{issue number}`.
+
+The PRD should at the top list:
+- branch
+- link to GitHub ticket
 
 Organize it and make concise and structured based on the initial notes.
 
