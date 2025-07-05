@@ -8,9 +8,9 @@ During the entire life-cycle, especially during the upfront planning phase, you 
 ## Creating a Questions Document
 If you have questions, you should write it in a Questions Document.
 
-The document should be in the `aiDocs/questions` folder.
+The document should be in the `docs/{ticket number}-{remote branch name}/` folder.
 
-The filename should be: `questions.md`
+The filename should be: `questions-{ticket number}-{remote branch name}.md`
 
 Within the file should be a section for each question and answer.
 
