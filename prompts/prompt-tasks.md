@@ -5,10 +5,15 @@
 2. The GitHub Issue should have a link to this document.
 3. Include date and branch fields at the top of the doc
 4. Break down the project into clear, actionable phases
-5. Make them concise, atomic, and simple.  Do not be verbose.
+5. Make each task concise, atomic, and simple.  Do not be verbose.
 6. Put the specific tasks into their respective phase.  Each should have a checkmark `[]`.
-7. Track progress by converting each task to `[x]`.
-8. Track progress and document implementation decisions
+7. Ask the User to review the Tasks.
+8. Review GitHub Issue Comments for potential comments on the Tasks.
+9. When Approved, Execute the Tasks.
+10. Track progress by converting each task to `[x]`. This way you remember where you are.
+11. If needed, clear your context window and continue where you left off in the Tasks List.
+12. If issues come up, place them as Comments in the associated GitHub Issue.
+
 
 ## Template
 ```markdown
