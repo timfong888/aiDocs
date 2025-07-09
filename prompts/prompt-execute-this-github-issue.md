@@ -5,6 +5,8 @@
 5. COMMENT directly in the GitHub Issue specified in addition to sending Messages to the Chat Interface
 6. STYLE: concise, bullets, zero verbosity. All Links clickable.
 7. Associate this Issue with a link to the Branch that you are working on.
-8. COMMIT your changes to the repo.
+8. COMMIT your changes to the local repo.
+9. Add the message and the Commit # to the GitHub Issue
+10. PUSH to the REMOTE REPO and log this in the GitHub Issue.
 
    
