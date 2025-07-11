@@ -7,12 +7,14 @@
 4. Break down the project into clear, actionable phases
 5. Make each task concise, atomic, and simple.  Do not be verbose.
 6. Put the specific tasks into their respective phase.  Each should have a checkmark `[]`.
-7. Ask the User to review the Tasks.
-8. Review GitHub Issue Comments for potential comments on the Tasks.
-9. When Approved, Execute the Tasks.
-10. Track progress by converting each task to `[x]`. This way you remember where you are.
-11. If needed, clear your context window and continue where you left off in the Tasks List.
-12. If issues come up, place them as Comments in the associated GitHub Issue.
+7. Create a section of information you want from the User (e.g. api keys, external target URLs).  If secrets, prompt the User via Chat.
+8. If you need a certain environment, such as tools installed to do the work, check (e.g. `npm list`).  If not listed, include an environment set-up section to `sudo npm install` your package.
+9. Ask the User to review the Tasks.
+10. Review GitHub Issue Comments for potential comments on the Tasks.
+11. When Approved, Execute the Tasks.
+12. Track progress by converting each task to `[x]`. This way you remember where you are.
+13. If needed, clear your context window and continue where you left off in the Tasks List.
+14. If issues come up, place them as Comments in the associated GitHub Issue.
 
 
 ## Template
