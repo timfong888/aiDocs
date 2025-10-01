@@ -2,6 +2,9 @@
 
 This repo is designed to be used as a Git submodule across multiple projects.
 
+## Current Integrations
+- **remoteObsidian1025**: Integrated as context for AI agents and documentation workflows
+
 ## Adding to New Project
 
 ```bash
